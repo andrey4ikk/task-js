@@ -1,0 +1,8 @@
+Перевернуть текст
+
+
+Решение
+
+let a = ('How are you man?')
+let b = a.split("").reverse().join("");
+console.log(b);
